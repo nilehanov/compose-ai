@@ -20,13 +20,5 @@
 	<string>1.0</string>
 	<key>CFBundleVersion</key>
 	<string>1</string>
-	<key>NSPrivacyAccessedAPITypes</key>
-	<array/>
-	<key>NSPrivacyCollectedDataTypes</key>
-	<array/>
-	<key>NSPrivacyTracking</key>
-	<false/>
-	<key>NSPrivacyTrackingDomains</key>
-	<array/>
 </dict>
 </plist>
