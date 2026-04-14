@@ -1,0 +1,55 @@
+name: Compose
+options:
+  bundleIdPrefix: com.nilehanov
+  deploymentTarget:
+    iOS: "26.0"
+  xcodeVersion: "26.1"
+  minimumXcodeGenVersion: "2.42.0"
+settings:
+  base:
+    SWIFT_VERSION: "6.2"
+    ENABLE_USER_SCRIPT_SANDBOXING: "YES"
+    SWIFT_STRICT_CONCURRENCY: complete
+    PRODUCT_BUNDLE_IDENTIFIER: com.nilehanov.compose
+    MARKETING_VERSION: "1.0.0"
+    CURRENT_PROJECT_VERSION: "1"
+    DEVELOPMENT_TEAM: KWQTH8W4TL
+    CODE_SIGN_STYLE: Automatic
+    INFOPLIST_KEY_CFBundleDisplayName: "Compose"
+    INFOPLIST_KEY_LSApplicationCategoryType: "public.app-category.productivity"
+    INFOPLIST_KEY_UILaunchScreen_Generation: "YES"
+    INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone: "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"
+    INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad: "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight"
+    GENERATE_INFOPLIST_FILE: "YES"
+    INFOPLIST_KEY_CFBundleIconName: AppIcon
+targets:
+  Compose:
+    type: application
+    platform: iOS
+    sources:
+      - path: Compose
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.nilehanov.compose
+        INFOPLIST_KEY_NSUserTrackingUsageDescription: "This app does not track you."
+    info:
+      path: Compose/Info.plist
+      properties:
+        CFBundleIconName: AppIcon
+        NSPrivacyTracking: false
+        NSPrivacyTrackingDomains: []
+        NSPrivacyCollectedDataTypes: []
+        NSPrivacyAccessedAPITypes: []
+    resources:
+      - path: Compose/Assets.xcassets
+      - path: Compose/PrivacyInfo.xcprivacy
+  ComposeTests:
+    type: bundle.unit-test
+    platform: iOS
+    sources:
+      - path: ComposeTests
+    dependencies:
+      - target: Compose
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.nilehanov.compose.tests

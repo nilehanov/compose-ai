@@ -1,0 +1,1 @@
+Compose requires Apple Intelligence to function. The app uses on-device Foundation Models (LanguageModelSession) to generate email drafts. No login or account is required. To test, select any template, enter text, pick a tone, and tap Generate. The app must be tested on a device that supports Apple Intelligence (iPhone 16 or later, iPad with M1 or later).

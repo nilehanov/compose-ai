@@ -1,0 +1,29 @@
+Compose is a private AI email and message drafter that runs entirely on your device using Apple Intelligence. No accounts, no cloud, no data collection — just polished email drafts in seconds.
+
+HOW IT WORKS
+1. Choose a template: Reply, New Email, Follow-Up, Decline, or Complaint
+2. Paste the original message or describe what you want to write
+3. Pick your tone: Formal, Friendly, Assertive, Diplomatic, or Apologetic
+4. Tap Generate — Apple Intelligence crafts a polished draft on-device
+5. Copy or share your draft
+
+5 PROFESSIONAL TEMPLATES
+- Reply to Email: Craft the perfect response to any message
+- New Email: Write a brand-new email from a simple description
+- Follow-Up: Send a polite nudge without sounding pushy
+- Decline / Reject: Turn down requests gracefully and professionally
+- Complaint: File a professional complaint that gets results
+
+5 TONE OPTIONS
+Choose Formal for business, Friendly for colleagues, Assertive for urgency, Diplomatic for sensitive topics, or Apologetic when you need to make amends.
+
+COMPLETELY PRIVATE
+- All AI processing happens on-device with Apple Intelligence
+- No data is collected, stored, or sent to any server
+- No accounts, no sign-ups, no tracking
+- Your messages never leave your device
+
+DRAFT HISTORY
+Every generated draft is saved locally so you can revisit, copy, and reuse your best emails anytime.
+
+Requires iPhone or iPad with Apple Intelligence support running iOS 26 or later.

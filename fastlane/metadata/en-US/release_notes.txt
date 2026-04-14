@@ -1,0 +1,1 @@
+Initial release of Compose: AI Email Draft. Generate professional email drafts on-device using Apple Intelligence with 5 templates and 5 tone options.
